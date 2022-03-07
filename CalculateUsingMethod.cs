@@ -23,7 +23,7 @@ class CalculateUsingMehod
             default: Console.WriteLine("Please enter correct opreator!"); break;
         }
 
-        if(opera=="+" || opera=="-" || opera=="*" || opera=="/" || opera=="%")
+        if(opera=="+" || opera=="-" || opera=="x" || opera=="/" || opera=="%")
         {
             Console.WriteLine("The result of Number1 " + opera + "Number2 is: " + result);
         }
